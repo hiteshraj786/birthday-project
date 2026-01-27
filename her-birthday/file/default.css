@@ -112,3 +112,12 @@ a {
   }
 
 }
+@media (max-width:768px){
+
+  #canvas{
+    height:60vh;
+  }
+
+}
+
+
