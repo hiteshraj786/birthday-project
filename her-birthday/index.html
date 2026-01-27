@@ -51,6 +51,16 @@
     <script>
     (function() {
         var canvas = $('#canvas');
+
+		// Responsive canvas size
+		if (window.innerWidth < 768) {
+		    canvas.attr("width", window.innerWidth);
+		    canvas.attr("height", window.innerHeight * 0.6);
+		} else {
+		    canvas.attr("width", 1100);
+		    canvas.attr("height", 680);
+		}
+
 		
         if (!canvas[0].getContext) {
             $("#error").show();
@@ -63,11 +73,13 @@
         canvas.attr("height", height);
 
         var opts = {
-            seed: {
-                x: width / 2 - 20,
-                color: "rgb(190, 26, 37)",
-                scale: 2
-            },
+		   seed: {
+				x: width / 2,
+				y: height - 10,
+				color: "rgb(190, 26, 37)",
+				scale: 2
+			},
+
             branch: [
                 [535, 680, 570, 250, 500, 200, 30, 100, [
                     [540, 500, 455, 417, 340, 400, 13, 100, [
@@ -91,11 +103,12 @@
                 width: 1080,
                 height: 650,
             },
-            footer: {
-                width: 1200,
-                height: 5,
-                speed: 10,
-            }
+           footer: {
+			    width: width,
+			    height: 20,
+			    speed: 10,
+			}
+
         }
 
         var tree = new Tree(canvas[0], width, height, opts);
@@ -184,4 +197,5 @@
 </body>
 
 </html>
+
 
