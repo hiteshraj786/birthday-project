@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="her-birthday/img2.png" alt="Birthday Wish Preview" width="600"/>
+  <img src="preview.png" alt="Birthday Wish Preview" width="800"/>
 </p>
 
 <h1 align="center">🎂 Birthday Wish — An Animated Love Letter 💕</h1>
@@ -39,7 +39,7 @@ This is a **handcrafted, animated birthday wish** built as a single-page web exp
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="her-birthday/img.png" alt="Birthday Celebration" width="500"/>
+  <img src="preview.png" alt="Birthday Wish — Cherry Blossom Tree with Messages" width="800"/>
 </p>
 
 ---
