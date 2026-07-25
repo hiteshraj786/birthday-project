@@ -16,6 +16,10 @@
   <img src="https://img.shields.io/badge/Canvas-Animation-blueviolet?style=for-the-badge" alt="Canvas Animation"/>
 </p>
 
+<p align="center">
+  <strong>🌟 <a href="https://birthday-project-a5jj.onrender.com">View Live Demo</a> 🌟</strong>
+</p>
+
 ---
 
 ## ✨ What Is This?
